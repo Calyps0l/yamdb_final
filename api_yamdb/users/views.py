@@ -1,3 +1,4 @@
+from api.permissions import IsAdmin, IsSuperUser, PermissionClassMixin
 from django.contrib.auth.tokens import default_token_generator
 from django.db.models import Q
 from django.shortcuts import get_object_or_404
@@ -9,7 +10,6 @@ from rest_framework_simplejwt.tokens import RefreshToken
 from users.models import User
 from users.serializers import SignUpSerializer, TokenSerializer, UserSerializer
 from users.services import send_code
-from api.permissions import IsAdmin, IsSuperUser, PermissionClassMixin
 
 
 @api_view(['POST'])
