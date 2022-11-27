@@ -1,7 +1,7 @@
-https://github.com/Calyps0l/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg
+![workflow](https://github.com/Calyps0l/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg)
 
 ## Описание
-Проект по работе с Docker-compose
+CI и CD для проекта api_yamdb
 
 ### Запускаем проект:
 клонируем репозиторий
@@ -56,8 +56,13 @@ docker-compose exec web python manage.py loaddata fixtures.json
 docker-compose down -v
 ```
 
+### IP сервера:
+```bash
+158.160.33.133
+```
+
 ### Запросы:
-Примеры запросов находятся по адресу: http://localhost:8000/redoc/
+Примеры запросов находятся по адресу: http://158.160.33.133/redoc/
 
 ### Шаблон по заполнению .env (infra/.env)
 ```bash
