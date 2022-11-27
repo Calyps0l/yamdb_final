@@ -1,4 +1,4 @@
-https://github.com/Calyps0l/yamdb_final/.github/workflows/yamdb_workflow.yml/badge.svg
+https://github.com/Calyps0l/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg
 
 ## Описание
 Проект по работе с Docker-compose
